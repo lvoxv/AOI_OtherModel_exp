@@ -1,0 +1,12 @@
+# dataset.yaml
+path: /home/xj/xu/data/250423_the_thrid_optimization_datasets # 根目录，下面应该有 images/ 和 labels/
+train: images/train      # 相对于 path 的训练集图片路径
+val: images/val          # 验证集图片路径
+# test: images/test        # 测试集图片路径（可选）
+
+nc: 5  # 类别数量
+names: ['cellosilk',
+  'black_spot',
+  'fragment',
+  'crack',
+  'scratching']  # 类别名称
